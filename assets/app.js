@@ -1,4 +1,4 @@
-/* FriDaw preview build — no dependencies, no external calls. */
+/* FriDaw preview build - no dependencies, no external calls. */
 (function () {
   'use strict';
 

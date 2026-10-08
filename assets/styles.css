@@ -1,5 +1,5 @@
 /* ==========================================================================
-   FriDaw — preview build
+   FriDaw - preview build
    Typography : Newsreader (display, variable) + Archivo (text, variable)
    Palette    : ink / paper / forest / clay
    No external requests: fonts are self-hosted, textures are inline SVG.
@@ -79,7 +79,7 @@ img,svg{ max-width:100%; display:block; }
 }
 .skip:focus{ left:.5rem; top:.5rem; }
 
-/* ───────────────────────── typography ───────────────────────── */
+/* typography  */
 
 h1,h2,h3{
   font-family:"Newsreader",Georgia,serif;
@@ -153,7 +153,7 @@ a{ color:inherit; }
   max-width:34em;
 }
 
-/* ───────────────────────── buttons ───────────────────────── */
+/* buttons  */
 
 .btn{
   --bg:var(--forest);
@@ -219,7 +219,7 @@ a{ color:inherit; }
   outline-offset:3px;
 }
 
-/* ───────────────────────── header ───────────────────────── */
+/* header  */
 
 .site-head{
   position:sticky; top:0; z-index:40;
@@ -318,7 +318,7 @@ a{ color:inherit; }
   .mobile-nav:not([hidden]){ display:flex; }
 }
 
-/* ───────────────────────── hero ───────────────────────── */
+/* hero  */
 
 .hero{
   padding-top:clamp(2.25rem,4.4vw,4rem);
@@ -456,7 +456,7 @@ a{ color:inherit; }
   .relay{ max-width:480px; }
 }
 
-/* ───────────────────────── bands ───────────────────────── */
+/* bands  */
 
 .band{ padding:clamp(4rem,8vw,7rem) 0; }
 .band-alt{
@@ -655,7 +655,7 @@ a{ color:inherit; }
   .portrait{ max-width:260px; }
 }
 
-/* talent — inverted band */
+/* talent - inverted band */
 .talent{
   background:var(--forest-dk);
   color:#E8EFE9;
@@ -698,7 +698,7 @@ a{ color:inherit; }
 }
 @media (max-width:820px){ .talent-grid{ grid-template-columns:1fr; } }
 
-/* ───────────────────────── contact ───────────────────────── */
+/* contact  */
 
 .start-grid{
   display:grid;
@@ -830,7 +830,7 @@ a{ color:inherit; }
 
 @media (max-width:900px){ .start-grid{ grid-template-columns:1fr; } }
 
-/* ───────────────────────── placeholders (visible on purpose) ───── */
+/* placeholders (visible on purpose)  */
 
 [data-placeholder]{ position:relative; }
 .portrait[data-placeholder]::after{
@@ -855,7 +855,7 @@ a{ color:inherit; }
 .foot-ph{ margin:.55rem 0 0; }
 .foot-ph.inline{ margin:0; }
 
-/* ───────────────────────── footer ───────────────────────── */
+/* footer  */
 
 .foot{
   background:var(--ink);
@@ -902,7 +902,7 @@ a{ color:inherit; }
   .foot-grid{ grid-template-columns:1fr; }
 }
 
-/* ───────────────────────── reveal ───────────────────────── */
+/* reveal  */
 
 .reveal{
   opacity:0;

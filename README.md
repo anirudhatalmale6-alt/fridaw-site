@@ -1,7 +1,7 @@
-# FriDaw — one page site (preview build)
+# FriDaw - one page site (preview build)
 
-A single-page site for FriDaw, a digital agency that scopes client projects and
-matches them to a specialist developer or designer.
+A single-page site for FriDaw, a digital agency designing and building websites,
+applications, Shopify stores and brand identities.
 
 Live preview: https://anirudhatalmale6-alt.github.io/fridaw-site/
 
@@ -22,7 +22,7 @@ assets/
 ## Design notes
 
 - Type is Newsreader (display) and Archivo (text), both variable fonts, both
-  **self-hosted**. The page makes **zero external requests** — no Google Fonts,
+  **self-hosted**. The page makes **zero external requests** - no Google Fonts,
   no CDN, no trackers. Verified in the browser.
 - Palette: ink `#0E1311`, paper `#F4F1EA`, forest `#1F4D3A`, clay `#A8512F`.
 - The paper grain and the select arrow are inline SVG, not image files.
@@ -31,11 +31,11 @@ assets/
 
 ## Deliberately absent
 
-No testimonials, no client logos, no "projects delivered" counters. FriDaw
-launched in 2026 and has not earned those yet, and fabricated proof is the
-fastest way to lose a serious prospect. The page leans on the proposition, the
-services and the process instead. The markup is structured so real testimonials
-and case studies slot in later without a redesign.
+No testimonials, no client logos, no "projects delivered" counters, because none
+have been earned yet and fabricated proof is the fastest way to lose a serious
+prospect. The page leans on the proposition, the services and the process
+instead. The markup is structured so real testimonials and case studies slot in
+later without a redesign.
 
 ## Placeholders still to be replaced
 
@@ -45,8 +45,8 @@ and case studies slot in later without a redesign.
 | Footer | Email address for enquiries |
 | Footer | Phone number, if one should be shown |
 | Footer | Registered company name, number and address |
-| Header / favicon | A real logo, if one exists — currently the name set in type |
-| Contact form | The inbox enquiries should be delivered to |
+| Header / favicon | A real logo, if one exists - currently the name set in type |
+| Contact form | The inbox enquiries should be delivered to, plus a host that can run it |
 
 ## The contact form
 
@@ -54,8 +54,8 @@ It validates fully in the browser (required fields, email format, consent
 checkbox, plus a honeypot field for bots) but **submits nowhere**. Nothing is
 sent and nothing is stored. Submitting shows a panel that says exactly that.
 
-To make it live, point it at a handler — a PHP mail script on shared hosting, or
-a hosted form endpoint — and replace the `finish()` call in `assets/app.js` with
+To make it live, point it at a handler - a PHP mail script on shared hosting, or
+a hosted form endpoint - and replace the `finish()` call in `assets/app.js` with
 the POST. That is roughly ten lines.
 
 ## Browser checks run against this build
